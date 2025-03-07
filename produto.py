@@ -14,3 +14,4 @@ class Produto:
     def from_string(data_str):
         produto_id, nome, quantd, preco, categoria, descricao = data_str.strip().split(", ")
         return Produto(int(produto_id), nome, int(quantd), float(preco), categoria, descricao)
+
