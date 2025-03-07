@@ -62,7 +62,7 @@ def criar_produto():
     categoria = input("Digite a categoria do produto: ")
     descricao = input("Digite a descrição do produto: ")
 
-    novo_produto = Produto(produto_id, nome, quantd, preco, categoria, descricao)
+    novo_produto = Produto(produto_id=produto_id, nome=nome, quantd=quantd, preco=preco, categoria=categoria, descricao=descricao)
     produtos.append(novo_produto)
     print(f"Produto {nome} criado com sucesso!")
 
@@ -113,7 +113,7 @@ def criar_cliente():
     data_nascimento = input("Digite a data de nascimento do cliente (dd/mm/aaaa): ")
     idade = calcular_idade(data_nascimento)
 
-    novo_cliente = Cliente(id_cliente, nome, idade, email, telefone, data_nascimento)
+    novo_cliente = Cliente(id_cliente=id_cliente, nome=nome, idade=idade, email=email, telefone=telefone, data_nascimento=data_nascimento)
     clientes.append(novo_cliente)
     print(f"Cliente {nome} criado com sucesso!")
 
