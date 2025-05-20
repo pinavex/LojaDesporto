@@ -1,0 +1,1 @@
+[{"id_cliente": 1, "nome": "putorogerwok", "idade": 18, "email": "atividaderija123@gmail.com", "telefone": "987543217", "data_nascimento": "09/02/2007"}]
